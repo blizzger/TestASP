@@ -15,6 +15,7 @@ namespace Model
         public int TeamId { get; set; }
         public string Name { get; set; }
         public string Nationality { get; set; }
+        public int TeamRating { get; set; }
         public string Stadium { get; set; }
         public int StadiumCapacity { get; set; }
         public int Cups { get; set; }
